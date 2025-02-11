@@ -1,0 +1,28 @@
+folders_to_sync: [
+  tests/dummy_folder_to_sync
+]
+
+files_to_exclude: [
+  *.txt
+]
+
+user:
+  name: djoe
+  psw: 1234
+
+folders_to_sync: [
+  /home/fchinu/Repos/auto_backup/tests/dummy_folder_to_sync/log.txt # only files can be uploaded at the moment
+]
+
+target_folders: [
+  /eos/user/f/fchinu/backup/tests/dummy_folder_to_sync/log.txt # only files can be uploaded at the moment
+]
+
+files_to_exclude: [ # this is not considered at the moment
+  "*.txt"
+]
+
+connection:
+  host: lxplus.cern.ch
+  username: jdoe
+  psw: 1234 # Null to put it by hand
